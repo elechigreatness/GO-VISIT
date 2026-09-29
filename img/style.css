@@ -1,0 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap'); */
+@font-face {
+    font-family: Asimovian;
+    src: url("../aimovianfont/Asimovian-Regular.ttf");
+}
+*{
+    font-family: Asimovian;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+.my-section {
+    padding: 50px 0px;
+}
+.light-blue-bg {
+    background: #eef6ff;
+}
+.light-pink-bg {
+    background: #fff2f2;
+}
+body {
+    font-family: 'Asimovian', sans-serif;
+}
+footer {
+    /* display: flex; */
+    /* background-color: black; */
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+/* .footer {
+    color: blue;
+    display: block; */
+/* } */
