@@ -10,7 +10,12 @@ header {
     position: relative;
     width: 100%;
     height: 70vh;
-    overflow: hidden;
+    /* overflow: hidden; */
+    padding: 0;
+}
+header video {
+    height: 100%;
+    object-fit: cover;
 }
 img {
     width: 100%;
